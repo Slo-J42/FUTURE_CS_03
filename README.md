@@ -20,7 +20,7 @@ A simple yet secure Flask web app for encrypted file uploads and downloads using
 ## 🚀 Setup
 
 ```bash
-git clone https://github.com/yourusername/secure-file-share.git
+git clone https://github.com/Slo-J42/secure-file-share.git
 cd secure-file-share
 python3 -m venv venv
 source venv/bin/activate
