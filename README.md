@@ -25,3 +25,25 @@ cd secure-file-share
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
+
+Create a .env file:
+AES_KEY=your_64_char_hex_key_here
+
+Run the app:
+python app.py
+
+
+📁 Folder Structure
+uploads/ – stores encrypted files
+
+decrypted/ – temporary decrypted files
+
+templates/ – HTML frontend
+
+crypto_utils.py – AES logic
+
+app.py – Flask web app
+
+## 🔐 Security
+See SECURITY.md for full encryption and key handling details.
