@@ -1,0 +1,4 @@
+download : 
+flask
+pycryptodome
+python-dotenv
