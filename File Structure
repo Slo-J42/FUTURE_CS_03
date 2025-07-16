@@ -1,0 +1,12 @@
+secure-file-share/
+├── app.py
+├── crypto_utils.py
+├── templates/
+│   └── index.html
+├── uploads/             # Encrypted files (auto-created)
+├── decrypted/           # Temporary decrypted files (auto-created)
+├── .env                 # Stores AES key (not committed)
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── SECURITY.md          # Security overview document
