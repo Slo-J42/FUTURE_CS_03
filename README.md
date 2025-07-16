@@ -27,14 +27,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Create a .env file:
+## Create a .env file:
+
 AES_KEY=your_64_char_hex_key_here
 
-Run the app:
+
+
+## Run the app:
+
 python app.py
 
 
-📁 Folder Structure
+## 📁 Folder Structure
+
 uploads/ – stores encrypted files
 
 decrypted/ – temporary decrypted files
